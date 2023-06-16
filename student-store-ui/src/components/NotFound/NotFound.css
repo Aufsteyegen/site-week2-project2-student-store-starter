@@ -1,0 +1,17 @@
+.notfound-content {
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 100px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.go-back {
+    background-color: #5b5b5b;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+}

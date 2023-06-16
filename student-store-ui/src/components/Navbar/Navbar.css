@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background: #2c4047e5;
+    padding-right: 180px;
+    padding-left: 180px;
+    position: fixed;
+    z-index: 100;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    max-width: 650px;
+    list-style-type: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.nav-content {
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 50px;
+    width: 100px;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: transparent;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.fa-brands {
+    color: white;
+}

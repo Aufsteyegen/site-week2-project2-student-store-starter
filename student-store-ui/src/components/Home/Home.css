@@ -5,4 +5,42 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.about-content, .contact-content {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.about {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.contact-summary {
+    background-color: #2c4047;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.contact {
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.contact-summary li {
+    color: white;
+}
+
+.summary {
+    background-color: white;
+    font-size: 18px;
+    border: solid 1px #e0e0e0;
+    padding-left: 40px;
+    padding-right: 40px;
 }

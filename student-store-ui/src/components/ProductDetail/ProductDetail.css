@@ -1,0 +1,21 @@
+.detail-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 100px;
+}
+
+.detail-content img {
+    width: 340px;
+    height: 320px;
+}
+
+.go-back {
+    background-color: #5b5b5b;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
+    margin-top: 10px;
+}

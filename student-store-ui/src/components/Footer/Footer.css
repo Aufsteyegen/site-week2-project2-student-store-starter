@@ -1,0 +1,28 @@
+.horizontal-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: #5b5b5b;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.footer {
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    justify-content: space-between;
+}
+
+.footer-col {
+    border-left: 1px solid rgb(219, 219, 219);
+    padding-left: 10px;
+}
