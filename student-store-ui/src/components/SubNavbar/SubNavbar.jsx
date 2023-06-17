@@ -14,10 +14,15 @@ export default function SubNavbar(props) {
     useEffect(() => {
         const doSearch = () => {
           const filteredProducts = props.products.filter((product) => {
-            let productName = product.name.toLowerCase();
-            return productName.includes(searchVal.toLowerCase());
-          });
-          props.setSearchProducts(filteredProducts);
+            let searchValLower = searchVal.toLocaleLowerCase()
+            let productName = product.name.toLowerCase()
+            let productDescription = product.description.toLowerCase()
+            let productCategory = product.category.toLowerCase()
+            return (productName.includes(searchValLower) ||
+                    productDescription.includes(searchValLower) ||
+                    productCategory.includes(searchValLower))
+          })
+          props.setSearchProducts(filteredProducts)
         }
         doSearch()
         console.log(props.searchProducts)
