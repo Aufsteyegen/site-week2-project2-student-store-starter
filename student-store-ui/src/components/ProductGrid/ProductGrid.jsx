@@ -4,7 +4,7 @@ import ProductCard from "../ProductCard/ProductCard"
 import { useEffect, useState } from "react"
  
 
-export default function ProductGrid ({ products, searchProducts, handleAddItemToCart, handleRemoveItemFromCart, activeButton, setActiveButton }) {
+export default function ProductGrid ({ products, searchProducts, handleAddItemToCart, handleRemoveItemFromCart, activeButton, setActiveButton, shoppingCart }) {
     const [validProducts, setValidProducts] = useState(searchProducts)
     useEffect(() => {
         const validateProducts = () => {
@@ -32,10 +32,11 @@ export default function ProductGrid ({ products, searchProducts, handleAddItemTo
                 <h3>Best-Selling Products</h3>
             </div>
             <div className="product-cards">
-            {validProducts.map((product, index) => <ProductCard product={product} productId={product.id} 
-                                        quantity={0} handleAddItemToCart={handleAddItemToCart} 
-                                        handleRemoveItemFromCart={handleRemoveItemFromCart}
-                                        showDescription={false} key={index} />)}
+            {validProducts.map((product, index) => <ProductCard product={product}
+                                                    productId={product.id} 
+                                                    handleAddItemToCart={handleAddItemToCart} 
+                                                    handleRemoveItemFromCart={handleRemoveItemFromCart}
+                                                    shoppingCart={shoppingCart} key={index} />)}
             </div>
         </div>
 

@@ -25,7 +25,6 @@ export default function SubNavbar(props) {
           props.setSearchProducts(filteredProducts)
         }
         doSearch()
-        console.log(props.searchProducts)
       }, [searchVal, props.products])
     return (
       <nav className="sub-navbar">

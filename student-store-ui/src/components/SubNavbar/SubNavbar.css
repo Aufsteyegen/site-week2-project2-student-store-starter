@@ -34,15 +34,12 @@ ul {
 }
 
 input {
-    height: 60px;
+    height: 50px;
     padding-top: 0px;
     padding-right: 15px;
     padding-bottom: 0px;
     padding-left: 15px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 8px;
+    border-radius: 100px;
     border: solid 1px #e4e4e4;
     font-size: 16px;
     width: 400px;

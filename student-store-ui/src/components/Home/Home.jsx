@@ -6,19 +6,25 @@ import SubNavbar from "../SubNavbar/SubNavbar"
 
 export default function Home({ products, searchProducts, setSearchProducts, 
                                activeButton, setActiveButton,
-                               handleAddItemToCart, handleRemoveItemFromCart }) {
+                               handleAddItemToCart, handleRemoveItemFromCart,
+                               shoppingCart }) {
     const contactInfo = ["Email:", "Phone:", "Address:", "Socials:"]
     const contactInfoContent = ["code@path.org", "1-800-CODEPATH", "123 Fake Street, San Francisco, CA", ""]
     return (
     <div className="home">
         <Hero />
-        <SubNavbar activeButton={activeButton} setActiveButton={setActiveButton} 
+        <SubNavbar activeButton={activeButton}
+                   setActiveButton={setActiveButton} 
                    products={products}
-                   searchProducts={searchProducts} setSearchProducts={setSearchProducts} />
-        <ProductGrid products={products} searchProducts={searchProducts}
-                    handleAddItemToCart={handleAddItemToCart}
-                    handleRemoveItemFromCart={handleRemoveItemFromCart}
-                    activeButton={activeButton} setActiveButton={setActiveButton} />
+                   searchProducts={searchProducts}
+                   setSearchProducts={setSearchProducts} />
+        <ProductGrid products={products}
+                     searchProducts={searchProducts}
+                     handleAddItemToCart={handleAddItemToCart}
+                     handleRemoveItemFromCart={handleRemoveItemFromCart}
+                     activeButton={activeButton} 
+                     setActiveButton={setActiveButton}
+                     shoppingCart={shoppingCart} />
         <div className="about">
             <div className="about-content">
                 <h3>About</h3>

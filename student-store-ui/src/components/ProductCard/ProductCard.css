@@ -39,3 +39,9 @@
 .product-card:hover {
     transform: scale(1.015);
 }
+
+.product-quantity {
+    color: orange;
+    border-radius: 100px;
+    font-weight: bold;
+}

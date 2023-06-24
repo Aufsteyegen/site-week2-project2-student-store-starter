@@ -1,10 +1,141 @@
 .sidebar {
     display: flex;
+    padding: 15px;
     flex-direction: column;
     position: fixed;
     height: 100vh;
     z-index: 100;
     color: white;
+    border-right: 1px solid white;
     background-color: #2c4047;
-    width: 60px;
+    font-size: 15px;
+    overflow: scroll;
 }
+
+.sub-totals {
+    flex-direction: column;
+    background-color: black;
+}
+
+.sub-totals-content {
+    display: flex;
+}
+
+.sub-totals-content li {
+    color: white;
+    font-weight: bold;
+}
+
+.grid-titles {
+    font-weight: bold;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.grid-titles li {
+    color: white;
+}
+
+.cart {
+    margin-top: 10px;
+}
+
+.empty-cart {
+    background-color: #2c4047;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.grid-content {
+    background-color: white;
+    font-size: 15px;
+}
+
+.grid-content ul {
+    border: 1px solid white;
+}
+
+
+  
+  .sidebar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+  }
+
+.closed {
+    width: 60px;
+    transition: width 0.3s ease;
+    transform: rotate(0);
+}
+
+.open {
+    width: 560px;
+    transition: width 0.3s ease;
+    transform: rotate(180deg);
+}
+
+.sidebar input {
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.checkout {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+}
+
+.greyed-out {
+    background-color: rgb(149, 181, 149);
+}
+
+.exit {
+    margin-top: 40px;
+}
+
+
+
+.grid-content {
+    margin-bottom: 5px;
+}
+
+.inputs-wrapper {
+    margin-top: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+#myCheckbox {
+    height: 20px;
+    width: 20px;
+
+}
+
+.receipt {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    background-color: #2c4047;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .receipt div {
+    margin-bottom: 5px;
+  }
