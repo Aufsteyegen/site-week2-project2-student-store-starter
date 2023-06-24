@@ -26,10 +26,19 @@
     font-weight: bold;
 }
 
+.fa-cart-shopping {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
 .grid-titles {
     font-weight: bold;
     border: 1px solid white;
     margin-top: 30px;
+}
+
+i {
+    cursor: pointer;
 }
 
 .grid-titles li {
@@ -74,6 +83,7 @@
     width: 60px;
     transition: width 0.3s ease;
     transform: rotate(0);
+    font-size: 30px;
 }
 
 .open {

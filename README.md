@@ -36,8 +36,8 @@ Check out our [deployed Student Store](https://codepath-student-store-demo.surge
 
 ### Core Features
 
-<a href="https://www.loom.com/share/b04d3d8d8c714178afe90214d074318e">
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/b04d3d8d8c714178afe90214d074318e-with-play.gif">
+<a href="https://www.loom.com/share/edad2136490a4305be67f24987883ba8">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/edad2136490a4305be67f24987883ba8-with-play.gif">
 </a>
 
 - [X] User can click to expand the shopping cart in the left navigation.

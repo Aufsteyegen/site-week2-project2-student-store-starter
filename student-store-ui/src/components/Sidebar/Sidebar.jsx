@@ -52,7 +52,12 @@ export default function Sidebar({ shoppingCart, user, setUser, request, setReque
   return (
     <section className="sidebar">
       <div onClick={() => setOpen(!open)}>
+        <div>
         <i className={`fa-solid fa-arrow-right ${open ? `open` : `closed`}`}></i>
+        </div>
+        <div>
+        <i class="fa-solid fa-cart-shopping"></i>
+        </div>
       </div>
       {open && (
         <div className="sidebar-content">
